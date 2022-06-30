@@ -3,6 +3,7 @@ import Banner from "./components/Banner";
 import Navbar from "./components/Navbar";
 import Cards from "./components/Cards";
 import Search from "./components/Search";
+import Logos from "./components/Logos";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Banner />
       <Cards />
       <Search />
+      <Logos />
     </div>
   );
 };
