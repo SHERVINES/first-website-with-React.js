@@ -9,9 +9,9 @@ const Logos = () => {
         <div className={styles.container}>
             <h3>Who support us?</h3>
             <div className={styles.logo}>
-            <img src={apple} />
-            <img src={samsung} />
-            <img src={xiaomi} />
+            <img src={apple} alt="brand" />
+            <img src={samsung} alt="brand" />
+            <img src={xiaomi} alt="brand" />
             </div>
         </div>
     );

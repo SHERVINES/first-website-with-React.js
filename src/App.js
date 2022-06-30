@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Cards from "./components/Cards";
 import Search from "./components/Search";
 import Logos from "./components/Logos";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Cards />
       <Search />
       <Logos />
+      <Footer />
     </div>
   );
 };

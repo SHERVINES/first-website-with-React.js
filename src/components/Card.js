@@ -5,7 +5,7 @@ const Card = (props) => {
   const { image, name, price } = props;
   return (
     <div className={styles.container}>
-      <img src={image} />
+      <img src={image} alt="card" />
       <h3>{name}</h3>
       <p>{price}</p>
     </div>
