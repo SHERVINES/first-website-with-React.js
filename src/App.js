@@ -1,10 +1,12 @@
-import React from 'react';
-import Navbar from './components/Navbar';
+import React from "react";
+import Banner from "./components/Banner";
+import Navbar from "./components/Navbar";
 
 const App = () => {
   return (
     <div>
-     <Navbar />
+      <Navbar />
+      <Banner />
     </div>
   );
 };
