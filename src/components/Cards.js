@@ -9,10 +9,10 @@ import styles from "./Cards.module.css";
 const Cards = () => {
   return (
     <div className={styles.container}>
-      <Card image={iphonex} name="iphone X" price="500$" />
-      <Card image={iphone11} name="iphone 11" price="600$" />
-      <Card image={iphone12} name="iphone 12" price="800$" />
-      <Card image={s21} name="S 21" price="780$" />
+      <Card image={iphonex} name="iphone X" price="500 $" />
+      <Card image={iphone11} name="iphone 11" price="600 $" />
+      <Card image={iphone12} name="iphone 12" price="800 $" />
+      <Card image={s21} name="S 21" price="780 $" />
     </div>
   );
 };
